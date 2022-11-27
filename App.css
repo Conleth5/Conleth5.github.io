@@ -1,0 +1,19 @@
+.container{
+  background-color: black;
+  grid-template-columns: 1fr 10fr;
+  display: grid;
+  height: 100vh;
+}
+
+body{
+  overflow: hidden;
+}
+
+.container-nav{
+  background: linear-gradient(rgb(102,102,255), rgb(150,102,255));
+}
+
+.container-div{
+  background-color: aquamarine;
+  margin: 0;
+}
